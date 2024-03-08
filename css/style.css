@@ -1,0 +1,93 @@
+
+
+/* Nav bar modificações bootstrap */
+
+.navbar-brand { 
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkorange;
+}
+
+.navbar-brand img {
+    margin-right: 20px; 
+}
+
+.nav-item{
+    font-size: 22px;        
+    margin-right: 30px
+}
+
+/* Carroussel */
+
+
+.carousel-item-text h5 {
+    color: darkorange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important; 
+}
+
+.carousel-item-text p {
+    color: darkorange;
+    font-size: 18px;
+}
+
+/*Serviços*/
+
+.cointainer-servicos{
+
+    border-color: darkorange !important;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-right-radius: 30px !important;
+}
+
+.cointainer-servicos h2{
+
+    color: #181310;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cointainer-servicos a {
+
+    background-color: darkorange;
+}
+
+/* Facilidades */
+
+.container-facilidades{
+
+    background-color: #181310;
+
+}
+
+.text-color-facilidades{
+    color: #F1C213;
+}
+
+.facilidades-size{
+
+    width: 332px;
+}
+
+/*Barbeiros*/
+
+.text-orange {
+    color: darkorange;
+}
+
+.text-red{
+    color: #AB0A19
+}
+
+@media screen and (max-width: 576px) {
+
+    .cointainer-servicos{
+        border-width: 0px;
+    }
+
+    
+}
+
+
+
+
+
