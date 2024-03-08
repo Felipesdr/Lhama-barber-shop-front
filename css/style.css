@@ -70,6 +70,10 @@
 
 /*Barbeiros*/
 
+
+
+/* text colors */
+
 .text-orange {
     color: darkorange;
 }
@@ -78,6 +82,19 @@
     color: #AB0A19
 }
 
+/* text fonts */
+
+.text-style1{
+
+    font-family:'Courier New', Courier, monospace ;
+}
+
+/*Backgrounds*/
+
+.background-orange{
+
+    background-color: darkorange;
+}
 @media screen and (max-width: 576px) {
 
     .cointainer-servicos{
