@@ -2,6 +2,31 @@
 
 /* Nav bar modificações bootstrap */
 
+.cadastro{
+    background-color: #181310;
+    color: white;
+    border-radius: 15px;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.cadastro:hover{
+    background-color: white;
+    color: #181310;
+}
+
+.entrar{
+
+    background-color: darkorange;
+    color: #181310;
+    border-radius: 15px;
+}
+
+.entrar:hover{
+    background-color: white;
+    color: #181310;
+
+}
+
 .navbar-brand { 
     font-size: 32px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -41,7 +66,6 @@
 }
 
 .cointainer-servicos h2{
-
     color: #181310;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -70,6 +94,14 @@
 
 /*Barbeiros*/
 
+/*Contato*/
+
+.contato{
+    background-image: url('../imgs/contato.png');
+    background-position: center;
+    background-size: cover;
+}
+
 
 
 /* text colors */
@@ -80,6 +112,12 @@
 
 .text-red{
     color: #AB0A19
+}
+
+.text-black{
+    color: #181310;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
 }
 
 /* text fonts */
@@ -95,12 +133,49 @@
 
     background-color: darkorange;
 }
+
+.bg-dark-opacity{
+    background-color: rgba(52, 58, 64, 0.9)
+}
+
+/* Media */
+
+
 @media screen and (max-width: 576px) {
 
+    /* NavBar */
+
+
+    /* Servicos */
     .cointainer-servicos{
         border-width: 0px;
     }
+    
+}
 
+@media screen and (max-width: 992px) {
+
+    /* NavBar */
+
+    .cadastro{
+        color: #181310;
+        transition: color 0s, background-color 0s;
+        background-color: whitesmoke;
+        font-weight: 500;
+    }
+
+    .entrar{
+        color: #181310;
+        transition: color 0s, background-color 0s;
+        background-color: whitesmoke;
+        font-weight: 500;
+    }
+
+
+    /* Servicos */
+    .cointainer-servicos{
+        border-width: 0px;
+    }
     
 }
 
